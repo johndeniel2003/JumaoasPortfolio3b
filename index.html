@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f59b89817d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/D__2_-removebg-preview.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>MyPortfolio</title>
+</head>
+<body id="home">
+        <!-- NAVBAR AREA -->
+        <div class="navbar-container">
+            <div class="team-logo">
+                <a href="#home"><img src="images/D__2_-removebg-preview.png" alt=""></a>
+            </div>
+            <div class="burger-menu">
+                <i class="fa-solid fa-bars" id="open-menu"></i>
+                <i class="fa-solid fa-xmark" id="close-menu"></i>
+            </div>
+            <!-- NAVBAR LIST -->
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown-container">
+                        <a href="#about-us" id="down">
+                            <i class="fa-solid fa-chevron-down" id="iconDown"></i>
+                            About</a>
+
+                        <div class="AboutUs-dropdown" id="AboutUs-dropdown">
+                            <ul>
+                                <li><a href="#about-deniel" id="filter-name" class="name-deniel">Deniel John</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                </ul>
+            <!-- NAVBAR LIST ENDS -->
+
+        </div>
+
+    <!-- LANDING PAGE AREA -->
+    <div class="landing-page">
+
+        <!-- CONTENTS OF LANDING PAGE -->
+            <div class="landing-page-contents">
+                <div class="team-BG">
+                    <img src="images/ourTeamPic.jpg" alt="">
+                </div>
+                <div class="teamIntro border-start border-3 border-primary">
+                    <div class="text">
+                    <div class="heading">
+                        <h1><span class="text-primary floating-text">HELLO</span> I AM DENIEL JOHN</h1>
+                        <h4>I AM WEB</h4>
+                        <h4>
+                            <span class="word">DEVELOPER</span>
+                            <span class="word">DESIGNER</span>
+                            <span class="word">ENGINEER</span>
+                        </h4>
+                    </div>
+                    <div class="descript">
+                        <p>Passionate web developer specializing in creating efficient, user-friendly applications. Skilled in PHP, jQuery, and HTML, I’m focused on building secure and functional systems. Currently developing a student directory project that enhances data management and user accesss.</p>
+                    </div>
+                    <a href="#meetme"><button class="get-started-button btn border border-1 border-primary">
+                        <span class="circle"><i class="fa-solid fa-chevron-right"></i></span>
+                        <span class="txt">GET STARTED</span>
+                    </button></a>
+                </div>
+                </div>
+            </div>
+            <!-- CONTENTS ENDS -->
+    </div>
+
+    <!-- ABOUT US AREA -->
+    <div class="about-us">
+            <div class="about-us-section">
+                <div class="about-header">
+                    <div class="about-circle"></div>
+                    <h1 id="meetme">MEET ME</h1>
+                </div>
+                <div class="member-container row">
+                    <div class="col-1 member-wrapper member-deniel" id="about-deniel">
+                        <div class="member-picture">
+                            
+                            <div id="deniel-pictures-corousel" class="carousel slide carousel-container" data-bs-ride="carousel">
+                                <div class="carousel-indicators carousel-pic-indicator">
+                                    <button type="button" data-bs-target="#deniel-pictures-corousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="btn" style="background: url(/images/denielPic.jpg) center  / cover;" class="indicator"></button>
+                                    <button data-bs-target="#deniel-pictures-corousel" data-bs-slide-to="1" aria-label="Slide 2" style="background: url(/images/denielPic3.jpg) center  / cover;"  id="btn" class="indicator"></button>
+                                    <button  data-bs-target="#deniel-pictures-corousel" data-bs-slide-to="2" aria-label="Slide 3" style="background: url(/images/denielPic4.jpg) center  / cover;"  id="btn" class="indicator"></button>
+                                    <button  data-bs-target="#deniel-pictures-corousel" data-bs-slide-to="3" aria-label="Slide 4" style="background: url(/images/denielPic6.jpg) center  / cover;"  id="btn" class="indicator"></button>
+                                    <button  data-bs-target="#deniel-pictures-corousel" data-bs-slide-to="4" aria-label="Slide 5" style="background: url(/images/denielPic\ \(2\).jpg) center  / cover;"  id="btn" class="indicator"></button>
+                                    <button  data-bs-target="#deniel-pictures-corousel" data-bs-slide-to="5" aria-label="Slide 6" style="background: url(/images/dneielPic5.jpg) center  / cover;"  id="btn" class="indicator"></button>
+                                </div>
+                                <div class="carousel-inner carousel-pic-wrapper">
+                                   
+                                  <div class="carousel-item active carousel-pic">
+                                    <img src="images/denielPic.jpg" class="d-block w-100" alt="..." aria-label="slide 1">
+                                  </div>
+                                  <div class="carousel-item carousel-pic">
+                                    <img src="images/denielPic3.jpg" class="d-block w-100" alt="..." aria-label="slide 2">
+                                  </div>
+                                  <div class="carousel-item carousel-pic">
+                                    <img src="images/denielPic4.jpg" class="d-block w-100" alt="..." aria-label="slide 3">
+                                  </div>
+                                  <div class="carousel-item carousel-pic">
+                                    <img src="images/denielPic6.jpg" class="d-block w-100" alt="..." aria-label="slide 3">
+                                  </div>
+                                  <div class="carousel-item carousel-pic">
+                                    <img src="images/denielPic (2).jpg" class="d-block w-100" alt="..." aria-label="slide 3">
+                                  </div>
+                                  <div class="carousel-item carousel-pic">
+                                    <img src="images/dneielPic5.jpg" class="d-block w-100" alt="..." aria-label="slide 3">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" id="btn-control" type="button" data-bs-target="#deniel-pictures-corousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon btn-control-default btn-icon" aria-hidden="true"><i class="fa-solid fa-chevron-left" style="color: #ffff;"></i></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next btn-next" id="btn-control" type="button" data-bs-target="#deniel-pictures-corousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon  btn-control-default btn-icon" aria-hidden="true"> <i class="fa-solid fa-chevron-right" style="color: #ffff"></i></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
+                              </div>
+                        </div>
+                        <div class="member-description progress-deniel" data-bs-spy="scroll" data-bs-target="#navbar-deniel" data-bs-offset="0" tabindex="0">
+                            <nav id="navbar-deniel" class="navbar navbar-light  px-3 about-navbar">
+                                <a class="navbar-brand" href="#"></a>
+                                <ul class="nav nav-pills">
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading1">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading2">Skills</a>
+                                  </li>
+                                </ul>
+                              </nav>
+                              <div class="member-description-contents">
+                            <div class="about-name" id="scrollspyHeading1">
+                                <h3>DENIEL JOHN T. JUMAO-AS</h3>
+                                <p>Professional Web Designer & Team leader of this team with 2 years of experience.</p>
+                            </div>
+                            <div class="about-descript">
+                                <p>Over the last 2 years, I've worked alongside with some incredible people and collectively we've made good things happen.</p>
+                            </div>
+                            <div class="about-technology">
+                                <h3>Tech stack</h3>
+                                 <div class="progress-container"  id="scrollspyHeading2">
+                                    <div class="progress-wrapper js">
+                                        <div class="progress-javascript progress-bar-deniel bar-progress" data-count = "70">
+                                            <span><i class="fa-brands fa-square-js" id="js"></i></span>
+                                        </div>
+                                        <p>JAVASCRIPT</p>
+                                    </div>
+                                    <div class="progress-wrapper react">
+                                        <div class="progress-react progress-bar-deniel  bar-progress" data-count = "60">
+                                            <span><i class="fa-brands fa-react" id="react"></i></span>
+                                        </div>
+                                        <p>REACT</p>
+                                    </div>
+                                    <div class="progress-wrapper sass">
+                                        <div class="progress-sass progress-bar-deniel  bar-progress" data-count = "50">
+                                            <span><i class="fa-brands fa-sass" id="sass"></i></span>
+                                        </div>
+                                        <p>SASS</p>
+                                    </div>
+                                    <div class="progress-wrapper html">
+                                        <div class="progress-html progress-bar-deniel  bar-progress" data-count = "90">
+                                            <span><i class="fa-brands fa-html5" id="html"></i></span>
+                                        </div>
+                                        <p>HTML</p>
+                                    </div>
+
+                                 </div>
+                            </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="projects" id="activities">
+       <div class="project-header">
+        <h1>RECENT PROJECTS</h1>
+        <p>My website project is designed to provide a seamless user experience, with intuitive navigation and visually appealing design elements. It offers comprehensive information and interactive features, ensuring visitors can easily find what they need and engage with the content effectively.</p>
+       </div>
+       <div class="project-container">
+            <div class="project-wrapper">
+                <div class="project-image">
+                    <img src="images/Screenshot (551).png" alt="">
+                    <div class="circle-bg"></div>
+                </div>
+                <div class="project-description">
+                    <h1>News Flex
+                        (NewsLetter Preferences)
+                    </h1>
+                    <div class="project-overview">
+                        <h3>Project Overview</h3>
+                        <p>
+                            A streamlined web app for creating, managing, and distributing newsletters. Features include subscriber management, customizable templates, and analytics tracking. The app has two roles: Admin (full access) and System User (content contribution and analytics viewing), built with PHP, jQuery, and HTML for a user-friendly experience.</p>
+                    </div>
+                    <div class="view-project">
+                        <a href="Prjct1/index.html"><button class="btn bg-primary">Explore</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-wrapper second-project">
+                <div class="project-image">
+                    <img src="images/Screenshot (552).png" alt="">
+                    <div class="circle-bg"></div>
+                    <img src="images/curly-dotted-arrow.png" alt="" class="element form-element">
+                </div>
+                <div class="project-description">
+                    <h1>Product Feedback
+                        (Customer Product Feedback)
+                    </h1>
+                    <div class="project-overview">
+                        <h3>Project Overview</h3>
+                        <p>A web app designed for collecting, managing, and analyzing customer feedback on products. It offers features like rating systems, feedback categorization, and analytics for product improvement, all in a user-friendly interface built with PHP, jQuery, and HTML.</p>
+                    </div>
+                    <div class="view-project">
+                        <a href="Prjct2/index.html"><button class="btn bg-primary">Explore</button></a>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="services-container">
+        <div class="services-wrapper">
+            <img src="images/D__2_-removebg-preview.png" alt="" class="service-logo">
+            <div class="right-text">
+                <h3>MY SERVICES</h3>
+            </div>
+            <div id="services-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators carousel-indicators-service">
+                   <div class="indicator-wrapper">
+                    <div class="carousel-text">
+                        <h3>What I can offer</h3>
+                    </div>
+                   <div class="service-descript">
+                    <h3>Marketing</h3>
+                    <div data-bs-target="#services-carousel" data-bs-slide-to="0" class="active service-card" aria-current="true" aria-label="Slide 1">  
+                    </div>
+                   </div>
+                    <div class="service-descript">
+                        <h3>Data Analyst</h3>
+                        <div data-bs-target="#services-carousel" data-bs-slide-to="1" aria-label="Slide 2" class="service-card">
+                        </div>
+                    </div>
+                    <div class="service-descript">
+                        <h3>Managing</h3>
+                        <div data-bs-target="#services-carousel" data-bs-slide-to="2" aria-label="Slide 3" class="service-card">
+                        </div>
+                    </div>
+                    <div class="service-descript">
+                        <h3>UI/UX Design</h3>
+                        <div data-bs-target="#services-carousel" data-bs-slide-to="3" aria-label="Slide 4" class="service-card">
+
+                        </div>
+                    </div>
+                    <div class="service-descript">
+                        <h3>Game Development</h3>
+                        <div data-bs-target="#services-carousel" data-bs-slide-to="4" aria-label="Slide 5" class="service-card">
+
+                        </div>
+                    </div>
+                    <div class="service-descript">
+                        <h3>Web Development</h3>
+                        <div data-bs-target="#services-carousel" data-bs-slide-to="5" aria-label="Slide 6" class="service-card">
+
+                        </div>
+                    </div>
+                   </div>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/service1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/service2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/service3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/service4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/service5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/service6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="footer" id="contact">
+        <section class="contents">
+            <div class="blackhole">
+            </div>
+                <div class="innerhole">
+                </div>
+            <div class="grid">
+                <div>
+                    <img src="images/denielPic (2).jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/denielPic.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/denielPic3.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/denielPic4.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/denielPic (2).jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/dneielPic5.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/denielPic6.jpg" alt="">
+                </div>
+            </div>
+            <div class="location">
+                <h3 class="text-located">My location</h3>
+                <div class="position">
+                    <div class="marker"></div>
+                    <div class="marker-animation"></div>
+                </div>
+                <img src="images/cordovamap.png" alt="">
+                <img src="images/ourlocation.png" alt="" id="sub-location-pic" >
+                <span><a href="https://www.google.com/maps/place/Cordova,+Lalawigan+ng+Cebu/@10.2552524,123.9486297,17z/data=!4m6!3m5!1s0x33a99a5f4ca9458b:0xb54b99141f10a9d!8m2!3d10.2438638!4d123.9415518!16zL20vMDZoNGNy" class="see-location">See more</a></span>
+            </div>
+            <div class="contacts">
+                <div class="aboutus-footer">
+                    <h3>About me</h3>
+                    <p>
+                        Passionate web developer specializing in creating efficient, user-friendly applications. Skilled in PHP, jQuery, and HTML, I’m focused on building secure and functional systems. Currently developing a student directory project that enhances data management and user access.</p>
+                    <small>Deniel 2022-2023</small>
+                </div>
+               <div class="message">
+                <h3>Got any project?</h3>
+                <div class="Message-area">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message me"></textarea>
+                    <button class="btn"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+               </div>
+               <div class="links">
+                <h3>Useful links</h3>
+                <ul>
+                    <li><a href="">Fonts</a></li>
+                    <li><a href="">Icons</a></li>
+                    <li><a href="">Colors</a></li>
+                    <li><a href="">Box-shadows</a></li>
+                </ul>
+               </div>
+               <div class="page-nav-links">
+                <h3>Page links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#home">Contacts</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                </ul>
+               </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FUNCTION JS -->
+    <Script src="function.js/main.js" type="module"></Script>
+</body>
+</html>
